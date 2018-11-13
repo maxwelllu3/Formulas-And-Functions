@@ -2,11 +2,13 @@
 //  main.swift
 //  Formulas-And-Functions
 //
-//  Created by Gordon, Russell on 2018-11-13.
-//  Copyright © 2018 Gordon, Russell. All rights reserved.
+//  Formulas quick reference PDF obtained from Miami-Dade College:
+//  http://www.mdc.edu/main/images/COMMON_MATH_FORMULAS_tcm6-33520.pdf
 //
 
 import Foundation
 
-print("Hello, World!")
-
+// Find the area of a square, using a function
+let a = 7.0
+let areaOfSquare = forSquareWith(sideLength: a)
+print("The area of a square with side length \(a) is \(areaOfSquare)")

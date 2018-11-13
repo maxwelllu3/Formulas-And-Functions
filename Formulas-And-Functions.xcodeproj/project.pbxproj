@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E99A27F219B40D10006AD72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99A27E219B40D10006AD72 /* main.swift */; };
+		0E99A286219B41530006AD72 /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E99A285219B41530006AD72 /* Area.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		0E99A27B219B40D10006AD72 /* Formulas-And-Functions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Formulas-And-Functions"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E99A27E219B40D10006AD72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0E99A285219B41530006AD72 /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		0E99A287219B45D70006AD72 /* Common Math Formulas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Common Math Formulas.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				0E99A27E219B40D10006AD72 /* main.swift */,
+				0E99A285219B41530006AD72 /* Area.swift */,
+				0E99A287219B45D70006AD72 /* Common Math Formulas.pdf */,
 			);
 			path = "Formulas-And-Functions";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E99A286219B41530006AD72 /* Area.swift in Sources */,
 				0E99A27F219B40D10006AD72 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
